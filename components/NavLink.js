@@ -1,9 +1,9 @@
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 import Link from "next/link";
 import React, { Children } from "react";
 
 const NavLink = ({ children, ...props }) => {
-  const { pathname } = useRouter();
+  const { pathname } = "/";
   const child = Children.only(children);
   const childClassName = child.props.className || "";
   const className =

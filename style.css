@@ -1,0 +1,7 @@
+.nav .link {
+  text-decoration: none;
+  color: #000000;
+}
+.nav link.active {
+  color: #ff0000;
+}
