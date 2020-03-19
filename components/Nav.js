@@ -5,10 +5,10 @@ export default () => {
   return (
     <div className="nav">
       <NavLink activeClassName="active" href="/">
-        <a>Home</a>
+        <a className="link">Home</a>
       </NavLink>
       <NavLink activeClassName="active" href="/about">
-        <a>About</a>
+        <a className="link">About</a>
       </NavLink>
     </div>
   );
